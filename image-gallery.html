@@ -1,0 +1,122 @@
+<!--Nikolas Zazula-->
+<!--Portfolio Project (Mobile)-->
+<!--Rubric Link: https://docs.google.com/document/d/1yknx-OHYmd3HuwNWHsjVy-qXId5RAJaef6FSFNDoO9U/edit?usp=sharing-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Ruth Ellis Center</title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('li').addClass('active');
+            }
+        });
+    });
+    </script>
+  </head>
+  <body>
+    <div id="nav-div">
+        <nav id="nav">
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="image-gallery.html">IMAGES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main class="container">
+      
+        <header id="main">
+            <div id="main-title-div">
+            <h1 id="main-title">RUTH ELLIS CENTER</h1>
+            </div>
+            <h1 id="page-title">IMAGE GALLERY</h1>
+          </header>
+          <div class="gallery">
+            <div class="gallery__item">
+                <div class="img-div">
+                <img src="../mobile/images/building.jpeg" class="gallery__img" alt="Image 1">
+                </div>
+                <div class="img-caption">
+                    <p>A photo of the Ruth Ellis Center</p>
+                </div>
+              </div>
+              <div class="gallery__item">
+                <div class="img-div">
+                <img src="../mobile/images/group1.jpeg" class="gallery__img" alt="Image 2">
+                </div>
+            <div class="img-caption">
+                <p>Governor Gretchen Whitmer signing bill banning conversion therapy in Michigan.</p>
+            </div>
+            </div>
+              <div class="gallery__item">
+                <div class="img-div">
+                <img src="../mobile/images/group2.jpeg" class="gallery__img" alt="Image 3">
+                </div>
+                <div class="img-caption">
+                    <p>Volunteers collaborating on Halloween event for at-risk and low-income youth.</p>
+                </div>
+            </div>
+              <div class="gallery__item">
+                <div class="img-div">
+                <img src="../mobile/images/happy.jpeg" class="gallery__img" alt="Image 4">
+              </div>
+              <div class="img-caption">
+                <p>Ruth Ellis Center Youth </p>
+            </div>
+        </div>
+              <div class="gallery__item">
+                <div class="img-div">
+                <img src="../mobile/images/kofihouse-8.jpeg" class="gallery__img" alt="Image 5">
+                </div>
+                <div class="img-caption">
+                  <p>Group activities at the Ruth Ellis Center</p>
+              </div>
+          </div>
+              <div class="gallery__item">
+                <div class="img-div">
+                <img src="../mobile/images/koss.jpeg" class="gallery__img" alt="Image 6">
+            </div>
+            <div class="img-caption">
+              <p>Ruth Ellis Center volunteer</p>
+          </div>
+      </div>
+              <div class="gallery__item">
+                <div class="img-div">
+                <img id="image-7" src="../mobile/images/ruth.jpeg" class="gallery__img" alt="Image 7">
+            </div>
+            <div class="img-caption">
+              <p>Photo of two kids at the Ruth Ellis Center</p>
+          </div>
+      </div>
+              <div class="gallery__item">
+                <div class="img-div">
+                <img src="../mobile/images/poster.jpeg" class="gallery__img" alt="Image 8">
+            </div>
+            <div class="img-caption">
+              <p>Ruth Ellis Center office volunteers</p>
+          </div>
+      </div>
+              <div class="gallery__item">
+                <div class="img-div">
+                <img src="../mobile/images/ruthellis.jpeg" class="gallery__img" alt="Image 9">
+            </div>
+            <div class="img-caption">
+              <p>Queer youth at the Ruth Ellis Center</p>
+          </div>
+      </div>
+          </div>
+  </main>
+    <footer>
+      <p id="footer-text">
+        &copy; Nikolas Zazula, 2021</p>
+    </footer>
+  </body>
+</html>
